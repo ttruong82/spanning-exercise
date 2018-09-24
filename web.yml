@@ -1,0 +1,11 @@
+---
+
+# web
+- hosts: web
+  sudo: yes
+  gather_facts: yes
+  serial: 1
+
+  roles:
+    - web
+
